@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(50deg, #0a0a0a,#3a4452);
+}
+.calculator{
+    border: 2px solid rgb(151, 151, 151);
+    padding: 20px;
+    border-radius: 5px;
+    background: transparent;
+    box-shadow: 0px 15px 25px rgba(113,115,119,0.5);
+}
+h2{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgb(255, 174, 0);
+}
+hr{
+    width: 100%;
+    color: bisque;
+    height: 2px;
+    margin-bottom: 10px;
+}
+input{
+    width: 280px;
+    border: none;
+    padding: 30px;
+    margin: 15px;
+    border-radius: 10px;
+    background:transparent;
+    text-align: right;
+    color: #fff;
+    font-size: 40px;
+    box-shadow: 0px 0px 5px 5px rgba(128, 127, 127, 0.158);
+}
+input::placeholder{
+    color: #fff;
+}
+button{
+    position: relative;
+    left: 10px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #3a4452;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #d2a82a;
+}
+.equalbtn{
+    background-color: rgb(205, 139, 40);
+}
+.acbtn{
+    background-color: rgb(205, 139, 40);
+}
